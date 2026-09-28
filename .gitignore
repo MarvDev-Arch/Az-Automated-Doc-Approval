@@ -1,0 +1,17 @@
+cat > .gitignore <<'EOF'
+# Node.js dependencies
+node_modules/
+
+# Azure Functions local settings
+local.settings.json
+
+# VS Code
+.vscode/
+
+# Azure Functions local files
+.azurefunctions/
+
+# Logs
+*.log
+npm-debug.log*
+EOF
